@@ -4,7 +4,7 @@ import { TypewriterEffectSmoothDemo } from '../tobeinput/typer';
 
 const Partphoto = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen pb-10">
         <TypewriterEffectSmoothDemo/>
         <ParallaxScrollDemo/>
     </div>
