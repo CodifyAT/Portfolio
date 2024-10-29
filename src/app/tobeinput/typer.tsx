@@ -15,7 +15,7 @@ export function TypewriterEffectSmoothDemo() {
             className:"text-white"
           },
         {
-          text: "Portofolio.",
+          text: "Portfolio.",
           className: "text-pink-500 dark:text-pink-500",
         },
       ];
