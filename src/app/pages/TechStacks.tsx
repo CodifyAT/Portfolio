@@ -12,8 +12,8 @@ const interests=['Photography', 'Chess', 'Travelling', 'Audio-Mixing']
 
 const resumedownload = () => {
   const link = document.createElement('a');
-  link.href = 'https://github.com/CodifyAT/Portfolio/blob/e9605cb4e9abf4a7e67df1b965f0ed8a2cbc0d81/Atharva_Tiwari_resume.pdf'; // Use your actual raw URL
-  link.download = 'Resume.pdf'; // Specify the filename you want to give the downloaded file
+  link.href = 'https://github.com/CodifyAT/Portfolio/blob/2ec9d9f078bcdaf754a68429555cc4c58b3a2568/Atharva_Tiwari_resume.pdf'; 
+  link.download = 'ATResume.pdf'; // Specify the filename you want to give the downloaded file
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
